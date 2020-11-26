@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* { padding: 0; margin: 0 }
+
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.hero {
+  background-image: url('https://source.unsplash.com/random/1000x500');
+  background-size: cover;
+  padding: 180px 20px;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+h3 {
+  margin: 24px 0;
+}
+
+p {
+  margin-bottom: 48px;
+}
+
+a {
+  font-weight: 200;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  background-color: rgba(7, 245, 152, 0.2);
+}
+
+a:hover {
+  background-color: rgba(7, 245, 152, 1);
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  section {
+    width: 100%;
+  }
+
+  h1 {
+    margin-bottom: 32px;
+  }
+}
